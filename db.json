@@ -1,0 +1,17 @@
+{
+    "products" : [],
+    "categories" : [
+        {
+            "id":1,
+            "name": "Computer"
+        },
+        {
+            "id":2,
+            "name": "Automobile"
+        },
+        {
+            "id":3,
+            "name": "Smart Phone"
+        }
+    ]
+}
