@@ -1,5 +1,5 @@
-# product-filter
-
+# Belki Burada!
+This project includes the processes of listing products, adding products, seeing product details, creating a shopping cart and removing products from the cart. It was developed with Vue CLI. It also includes vue-router and axios. Json-server was used for data keeping and handling processes.
 ## Project setup
 ```
 npm install
