@@ -8,13 +8,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link to="/" class="nav-link" aria-current="page">Home</router-link>
+            <router-link to="/" class="nav-link" active-class="active" style="cursor:pointer;" aria-current="page">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/products" class="nav-link">Products</router-link>
+            <router-link to="/products" class="nav-link" active-class="active" style="cursor:pointer;">Products</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/my-products" class="nav-link">My Products</router-link>
+            <router-link to="/my-products" class="nav-link" active-class="active" style="cursor:pointer;">My Products</router-link>
           </li>
         </ul>
       </div>

@@ -1,8 +1,14 @@
 <template>
   <div>
     <navbar />
-    <sidebar />
-    <router-view></router-view>
+    <div class="row">
+      <div class="col-2">
+        <sidebar />
+      </div>
+      <div class="col-10">
+        <router-view></router-view>
+      </div>
+    </div>
   </div>
 </template>
 
