@@ -37,6 +37,16 @@
       "price": "201000",
       "categoryId": 2,
       "id": 6
+    },
+    {
+      "title": "deneme",
+      "description": "asd",
+      "price": "1253",
+      "url": "",
+      "categoryID": "choose",
+      "imageUrl": "asd",
+      "categoryId": 3,
+      "id": 7
     }
   ],
   "categories": [

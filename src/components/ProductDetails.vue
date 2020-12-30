@@ -24,6 +24,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   props: ["detail"],
   data() {
@@ -56,5 +57,17 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.card {
+  width: 100%;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.card-text {
+  margin-top: 50px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
 </style>
