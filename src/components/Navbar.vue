@@ -11,7 +11,7 @@
             <router-link to="/" class="nav-link" active-class="active" style="cursor:pointer;" aria-current="page">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/products" class="nav-link" active-class="active" style="cursor:pointer;">Products</router-link>
+            <router-link to="/products" class="nav-link" active-class="active" style="cursor:pointer;">Add Products</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/my-products" class="nav-link" active-class="active" style="cursor:pointer;">My Products</router-link>

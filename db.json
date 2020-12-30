@@ -1,26 +1,57 @@
 {
-    "products" : [
-        {
-            "id":1,
-            "title": "deneme",
-            "description": "Lorem ipsummmmmmmm",
-            "price": "1000",
-            "url" : "#"
-        }
-    ],
-    "categories" : [
-        {
-            "id":1,
-            "name": "Computer"
-        },
-        {
-            "id":2,
-            "name": "Automobile"
-        },
-        {
-            "id":3,
-            "name": "Smart Phone"
-        }
-    ],
-    "shopping-cart": []
+  "products": [
+    {
+      "title": "LENOVO IdeaPad",
+      "description": "3 15.6\"/Ryzen 7 3700U 2.3/8GB Ram/512GB/FHD Win 10 Laptop Platin Gri 81W1005RTX",
+      "price": "7000",
+      "url": "",
+      "categoryID": "choose",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_79331546/fee_786_587_png/LENOVO-IdeaPad-3-15.6%22-Ryzen-7-3700U-2.3-8GB-Ram-512GB-FHD-Win-10-Laptop-Platin-Gri-81W1005RTX",
+      "categoryId": 1,
+      "id": 3
+    },
+    {
+      "title": "APPLE MQD32TU/A Macbook Air",
+      "description": "13.3\" 2017/Core i5 1.8Ghz/8GB/128GB SSD/Intel HD Laptop Silver",
+      "price": "8000",
+      "url": "",
+      "categoryID": "choose",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-75502174/fee_786_587_png/APPLE-MQD32TU-A-Macbook-Air-13.3%22-2017-Core-i5-1.8Ghz-8GB-128GB-SSD-Intel-HD-Laptop-Silver",
+      "categoryId": 1,
+      "id": 4
+    },
+    {
+      "title": "SAMSUNG Galaxy A31",
+      "description": "128GB Akıllı Telefon Siyah",
+      "price": "3000",
+      "url": "",
+      "categoryID": "choose",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74616134/fee_786_587_png/SAMSUNG-Galaxy-A31-128GB-Ak%C4%B1ll%C4%B1-Telefon-Siyah",
+      "categoryId": 3,
+      "id": 5
+    },
+    {
+      "title": "Wolkswagen Polo",
+      "description": "1.4 TDI Comfortline 2017",
+      "imageUrl": "https://www.yenimodelarabalar.com/images/userfiles/optimized/yy5.png",
+      "price": "201000",
+      "categoryId": 2,
+      "id": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Computer"
+    },
+    {
+      "id": 2,
+      "name": "Automobile"
+    },
+    {
+      "id": 3,
+      "name": "Smart Phone"
+    }
+  ],
+  "shopping-cart": []
 }

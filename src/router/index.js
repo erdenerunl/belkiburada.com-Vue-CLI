@@ -3,6 +3,7 @@ import HomePage from '../views/HomePage.vue'
 import AddProduct from '../views/AddProduct.vue'
 import ShoppingCart from '../views/ShoppingCart.vue'
 import FilterCategory from '../views/FilterCategory.vue'
+import Details from '../views/Details.vue'
 const routes = [
   {
     path: '/',
@@ -19,8 +20,12 @@ const routes = [
     component: ShoppingCart
   },
   {
-    path: '/categories/:categoryID',
+    path: '/categories/:categoryId',
     component: FilterCategory
+  },
+  {
+    path: '/details/:id',
+    component: Details
   }
 ]
 
